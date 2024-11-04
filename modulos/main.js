@@ -1,5 +1,8 @@
 import { PI, linkHTML } from './utils.js';
+import isNumeroPrimo from './api.js';
 
-console.log( PI );
+console.log( isNumeroPrimo(2) );
 
-console.log( linkHTML('https://ifpb.edu.br', 'IFPB'));
+// console.log( PI );
+
+// console.log( linkHTML('https://ifpb.edu.br', 'IFPB'));
